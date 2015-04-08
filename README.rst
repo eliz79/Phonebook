@@ -7,7 +7,7 @@ Testing
 
 Dictionaries play an important role in Python. Python ‘dict’ are mutable and can contain any data type. Dictionaries consist of pairs (called items) of keys and their corresponding values. The data may be structured and related with meaningful keys which opens a huge realm of program capabilities.
 
-Personas
+`Personas`_
 ========
 
 Personas are a tool used to contextualize user and acceptance stories and aid
@@ -28,7 +28,7 @@ Goals
 
 Ramona wants to have a way that can help her have easy and quick access to parent’s phone number by first names.
 
-Problem Scenarios
+`Problem Scenarios`_
 =================
 
 Problem scenarios are in-depth descriptions of situations particular
@@ -51,7 +51,7 @@ Value Proposition
 
 Create a dictionary with all contacts. The dictionary can be accessed quickly and easily by the client’s first name.
 
-User Stories
+`User Stories`_
 ============
 
 A user story is a structured way of capturing a functional requirement from the
