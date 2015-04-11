@@ -10,31 +10,17 @@ Dictionaries play an important role in Python. Python ‘dict’ are mutable and
 Personas
 ========
 
-Personas are a tool used to contextualize user and acceptance stories and aid
-in the communication of product requirements.
-
 Ramona – Day Care Services
 --------------------------
 
 Ramona is 47 years old. She has her own day care center. The center provides caring services for children while their parent work or go to school.
 
-Details
--------
-
 Ramona loves working with children. She likes teaching and caring for them. She acquires satisfaction by making them feel at home while under her care.
-
-Goals
------
 
 Ramona wants to have a way that can help her have easy and quick access to parent’s phone number by first names.
 
 Problem Scenarios
 =================
-
-Problem scenarios are in-depth descriptions of situations particular
-`Personas`_ would like to to improve. Effective problem scenarios describe the
-problem at hand, the current alternatives or workarounds the user may employ
-and the related value proposition.
 
 How to find a contact by first name
 -----------------------------------
@@ -53,10 +39,6 @@ Create a dictionary with all contacts. The dictionary can be accessed quickly an
 
 User Stories
 ============
-
-A user story is a structured way of capturing a functional requirement from the
-perspective of a specific user. User stories provide the context, intention,
-and business case for each newly developed feature.
 
 Ramona's Phonebook
 ------------------
