@@ -8,6 +8,7 @@ Personas:
 ========
 Ramona – Day Care Services
 --------------------------
+
 ''Details'':
 Ramona is 47 years old. She has her own day care center. The center provides caring services for children while their parent work or go to school.
 Ramona loves working with children. She likes teaching and caring for them. She acquires satisfaction by making them feel at home while under her care.
@@ -17,20 +18,25 @@ Problem Scenarios
 =================
 How to find a contact by first name
 -----------------------------------
+
 ''Details'':
 To help Ramona find telephone numbers in her paper phone book.
+
 Current Alternatives
 --------------------
+
 ''Details'':
 Ramona tries to put numbers in order as she receives them from the client. She makes most entries in her phone book in caps to better see them.
 
 Value Proposition
 -----------------
+
 ''Goal'':
 Create a dictionary with all contacts. The dictionary can be accessed quickly and easily by the client’s first name.
 
 User Stories
 ============
+
 ''Details'':
 Ramona's Phonebook
 ------------------
