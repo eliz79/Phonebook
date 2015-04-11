@@ -1,11 +1,10 @@
 =============
 The Phonebook
 =============
-
 Dictionaries play an important role in Python. Python ‘dict’ are mutable and can contain any data type. Dictionaries consist of pairs (called items) of keys and their corresponding values. The data may be structured and related with meaningful keys which opens a huge realm of program capabilities.
 
 Personas:
-========
+=========
 Ramona – Day Care Services
 --------------------------
 
@@ -13,15 +12,15 @@ Ramona is 47 years old. She has her own day care center. The center provides car
 Ramona loves working with children. She likes teaching and caring for them. She acquires satisfaction by making them feel at home while under her care.
 Ramona wants to have a way that can help her have easy and quick access to parent’s phone number by first names.
 
-Problem Scenarios
-=================
+Problem Scenarios:
+==================
 How to find a contact by first name
 -----------------------------------
 
 To help Ramona find telephone numbers in her paper phone book.
 
 Current Alternatives
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 Ramona tries to put numbers in order as she receives them from the client. She makes most entries in her phone book in caps to better see them.
 
