@@ -1,13 +1,10 @@
-Final Project
-Testing
-
 =============
 The Phonebook
 =============
 
 Dictionaries play an important role in Python. Python ‘dict’ are mutable and can contain any data type. Dictionaries consist of pairs (called items) of keys and their corresponding values. The data may be structured and related with meaningful keys which opens a huge realm of program capabilities.
 
-Personas
+Personas:
 ========
 
 Ramona – Day Care Services
@@ -35,10 +32,13 @@ Ramona tries to put numbers in order as she receives them from the client. She m
 Value Proposition
 -----------------
 
+"Goal":
 Create a dictionary with all contacts. The dictionary can be accessed quickly and easily by the client’s first name.
 
 User Stories
 ============
+
+"Details":
 
 Ramona's Phonebook
 ------------------
