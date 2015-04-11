@@ -2,12 +2,12 @@ Final Project
 Testing
 
 =============
-`The Phonebook`_
+The Phonebook
 =============
 
 Dictionaries play an important role in Python. Python ‘dict’ are mutable and can contain any data type. Dictionaries consist of pairs (called items) of keys and their corresponding values. The data may be structured and related with meaningful keys which opens a huge realm of program capabilities.
 
-`Personas`_
+Personas
 ========
 
 Personas are a tool used to contextualize user and acceptance stories and aid
@@ -28,7 +28,7 @@ Goals
 
 Ramona wants to have a way that can help her have easy and quick access to parent’s phone number by first names.
 
-`Problem Scenarios`_
+Problem Scenarios
 =================
 
 Problem scenarios are in-depth descriptions of situations particular
@@ -51,7 +51,7 @@ Value Proposition
 
 Create a dictionary with all contacts. The dictionary can be accessed quickly and easily by the client’s first name.
 
-`User Stories`_
+User Stories
 ============
 
 A user story is a structured way of capturing a functional requirement from the
@@ -62,19 +62,3 @@ Ramona's Phonebook
 ------------------
 
 As a day care facilitator, I want to be able to reach my clients easily and quickly in time of need. I want to access my phonebook by first names in order to contact them when warranted so that I can be able to keep up to date with any days a child may have a trip or doctor’s appointment or if an emergency arises while the child is under my care.
-
-Acceptance Stories
-^^^^^^^^^^^^^^^^^^
-
-[Acceptance Story Name]
-```````````````````````
-
-::
-
-    Given [some context]
-        And [some additional context]
-        ...
-    When [event]
-    Then [outcome]
-        And [additional outcome]
-        ...
