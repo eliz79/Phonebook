@@ -40,14 +40,14 @@ time to find contacts in her phonebook because they are not easy
 to locate.
 
 Current Alternatives
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 Ramona attempts to make her names bigger than the number to find
 contacts better. This method works at times and she is able to keep
 a track of customer contacts more efficiently. 
 
 Value Proposition
-^^^^^^^^^^^^^^^^^
+-----------------
 
 The purpose of creating a module is to allow Ramona to have access to
 her contacts. The dictionary will be accessed quickly and easily by the
