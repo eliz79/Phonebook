@@ -23,7 +23,7 @@ from 6:30 AM until 6 PM. She likes teaching and caring for them.
 She acquires satisfaction by making them feel at home while under
 her care.
 
-Goals: TO help Ramona
+Goals:
 ------
 
 Ramona wants to have a way that can help her have easy and quick
