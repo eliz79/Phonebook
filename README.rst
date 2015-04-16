@@ -3,9 +3,15 @@
 The Phonebook
 =============
 
+<<<<<<< HEAD
 Dictionaries (dict) play an important role in Python. Python ‘dict’ are mutable
 and can contain any data type. Dictionaries consist of pairs (called items) of
 keys and their corresponding values. The data may be structured and related with
+=======
+Dictionaries play an important role in Python. Python ‘dict’ are mutable and can
+contain any data type. Dictionaries consist of pairs (called items) of keys and
+their corresponding values. The data may be structured and related with
+>>>>>>> 3284afdfe4d50a4fbff4be794e07b0218082953f
 meaningful keys which opens a huge realm of program capabilities.
 
 Personas: Ramona – Day Care Services
