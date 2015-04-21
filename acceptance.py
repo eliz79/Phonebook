@@ -28,3 +28,4 @@ Given [that I have to contact my existing customer]
 When [I choose Option 4,]
 Then [I will get a prompt asking me to enter the contact first name or letter]
 And [my phone book will retrieve my contact.]
+.
