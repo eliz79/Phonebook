@@ -105,7 +105,7 @@ Scenario 4: Searching for an existing contact
 ==============================================
 
 Given that I have to contact my existing customer,
-#And I need to enter new contact info in my phone book,
+And I need to enter new contact info in my phone book,
 When I choose Option 4,
 Then I will get a prompt asking me to enter the contact first name or letter,
 And my phone book will retrieve my contact.
