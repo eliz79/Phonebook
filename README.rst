@@ -101,7 +101,7 @@ And I will add the telephone, and any other additional information.
 
 
 
-Scenario 4: Searching for an exisiting contact
+Scenario 4: Searching for an existing contact
 ==============================================
 
 Given that I have to contact my existing customer,
