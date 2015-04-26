@@ -74,6 +74,8 @@ Acceptance Stories
 Scenario 1: Entering a new contact
 ==================================
 
+::
+
 | Given that I have a new customer,
 | And need to enter new contact info in my phone book,
 | When I choose Option 1,
@@ -82,6 +84,8 @@ Scenario 1: Entering a new contact
 
 Scenario 2: Deleting an existing contact
 ========================================
+
+::
 
 | Given that my customer will no longer need my services,
 | And need to remove the contact info from my phone book,
@@ -93,6 +97,8 @@ Scenario 2: Deleting an existing contact
 Scenario 3: Editing an existing contact
 =======================================
 
+::
+
 | Given that my customer has changed their number,
 | And I need to update the contact info in my phone book,
 | When I choose Option 3,
@@ -103,6 +109,8 @@ Scenario 3: Editing an existing contact
 
 Scenario 4: Searching for an existing contact
 ==============================================
+
+::
 
 | Given that I have to contact my existing customer,
 | And I need to enter new contact info in my phone book,
