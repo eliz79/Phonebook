@@ -72,7 +72,7 @@ Acceptance Stories
 ==================
 
 Scenario 1: Entering a new contact
----------------------------------------------------
+----------------------------------
 ::
 
 ||| Given that I have a new customer,
