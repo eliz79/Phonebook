@@ -87,11 +87,11 @@ Scenario 2: Deleting an existing contact
 
 ::
 
-||| Given that my customer will no longer need my services,
-| And need to remove the contact info from my phone book,
-| When I choose Option 2,
-| Then I will get a prompt confirming if I want to remove the contact,
-| And I will enter 'Y' for Yes or 'N' for No to confirm the deletion.
+Given that my customer will no longer need my services,
+And need to remove the contact info from my phone book,
+When I choose Option 2,
+Then I will get a prompt confirming if I want to remove the contact,
+And I will enter 'Y' for Yes or 'N' for No to confirm the deletion.
 
 
 Scenario 3: Editing an existing contact
