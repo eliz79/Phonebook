@@ -72,18 +72,17 @@ Acceptance Stories
 ==================
 
 Scenario 1: Entering a new contact
-----------------------------------
+==================================
 ::
 
-||| Given that I have a new customer,
-||| And need to enter new contact info in my phone book,
+| Given that I have a new customer,
+| And need to enter new contact info in my phone book,
 | When I choose Option 1,
 | Then I will get a prompt asking me to enter the contact information,
 | And I will add first name, last name, the telephone, and child name.
 
 Scenario 2: Deleting an existing contact
 ========================================
-
 ::
 
 | Given that my customer will no longer need my services,
@@ -95,7 +94,6 @@ Scenario 2: Deleting an existing contact
 
 Scenario 3: Editing an existing contact
 =======================================
-
 ::
 
 | Given that my customer has changed their number,
