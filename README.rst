@@ -85,7 +85,7 @@ Scenario 2: Deleting an existing contact
 ========================================
 ::
 
-| Given that my customer will no longer need my services,
+Given that my customer will no longer need my services,
 | And need to remove the contact info from my phone book,
 | When I choose Option 2,
 | Then I will get a prompt confirming if I want to remove the contact,
