@@ -79,7 +79,7 @@ Scenario 1: Entering a new contact
 | And need to enter new contact info in my phone book,
 | When I choose Option 1,
 | Then I will get a prompt asking me to enter the contact information,
-| And I will add first name, last name, the telephone, and child name.
+| And I will add first name, child name, and the telephone.
 
 Scenario 2: Deleting an existing contact
 ========================================
@@ -88,8 +88,8 @@ Scenario 2: Deleting an existing contact
 | Given that my customer will no longer need my services,
 | And need to remove the contact info from my phone book,
 | When I choose Option 2,
-| Then I will get a prompt confirming if I want to remove the contact,
-| And I will enter 'Y' for Yes or 'N' for No to confirm the deletion.
+| Then the contact will be deleted,
+| And I get a statement saying my contact has been deleted.
 
 
 Scenario 3: Editing an existing contact
@@ -100,7 +100,7 @@ Scenario 3: Editing an existing contact
 | And I need to update the contact info in my phone book,
 | When I choose Option 3,
 | Then I will get a prompt asking me to enter the updated contact information,
-| And I will add the telephone, and any other additional information.
+| And I will add the new contact info, along with any other additional info.
 
 
 
@@ -112,5 +112,5 @@ Scenario 4: Searching for an existing contact
 | Given that I have to contact my existing customer,
 | And I need to enter new contact info in my phone book,
 | When I choose Option 4,
-| Then I will get a prompt asking me to enter the contact first name or letter,
+| Then I will get a prompt asking me to enter the contact first name,
 | And my phone book will retrieve my contact.
