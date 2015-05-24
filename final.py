@@ -6,7 +6,6 @@ import pickle
 
 def dump():
     """For saving new contacts when added.
-
     Args: None
     Returns: None
     Examples:
@@ -23,7 +22,6 @@ def dump():
 
 def load():
     """For loading past contacts.
-
     Args: None
     Returns: None
     Examples:
@@ -37,7 +35,7 @@ def load():
     try:
         phonebook = open('phonebook.txt', 'rb')
         CONTACTS = pickle.load(phonebook)
-    except IOError or EOFError:
+    except IOError, EOFError:
         CONTACTS = {}
 
 load()
@@ -47,15 +45,14 @@ while ANSWER:
     print '-------Phonebook Menu-------''\n'
     print '1. Add a new contact name'
     print '2. Delete an existing contact'
-    print '3. Edit existing contact'
-    print '4. Search for an existing contact by name'
-    print '5. Display all'
-    print '6. Exit phonebook'
+    print '3. Search for an existing contact by name'
+    print '4. Display all'
+    print '5. Exit phonebook'
     ANSWER = raw_input('\nEnter your choice (1-4) here: ')
     print '---------------------------''\n'
     if ANSWER == '1':
-        NAME = raw_input('\nEnter new contact name: ')
-        CHILD = raw_input('\nEnter contact child name: ')
+        NAME = raw_input('\nEnter new contact name: ').upper()
+        CHILD = raw_input('\nEnter contact child name: ').upper()
         PHONE = raw_input('\nEnter contact phone number: ')
         CONTACTS[NAME] = [CHILD, PHONE]
         print '---------------------------''\n'
@@ -64,6 +61,7 @@ while ANSWER:
 
     elif ANSWER == '2':
         REMOVE = raw_input('\nEnter the name you wish to delete: ')
+        dump()
         if REMOVE in CONTACTS:
             del CONTACTS[REMOVE]
             print REMOVE.upper(), ':', 'Has been removed from the the phonebook'
@@ -74,30 +72,17 @@ while ANSWER:
             dump()
 
     elif ANSWER == '3':
-        EDIT = raw_input('\nEnter the name you wish to edit: ').upper()
-        if EDIT in CONTACTS:
-            print EDIT
-            NAME = raw_input('Enter new name: ')
-            CHILD = raw_input('Enter new child: ')
-            PHONE = raw_input('Enter new phone number: ')
-            CONTACTS[NAME] = [CHILD, PHONE]
-            del CONTACTS[EDIT]
-            print '\n''You have updated your contact!'
-            dump()
-
-    elif ANSWER == '4':
         SEARCH = raw_input('\nWho are you looking for? ')
         print '---------------------------''\n'
         if SEARCH in CONTACTS:
-            print SEARCH.upper(), ':'
-            print CONTACTS[SEARCH][0].upper(), CONTACTS[SEARCH][1]
+            print SEARCH, CONTACTS[SEARCH]
         else:
             print SEARCH.upper(), ':', 'Does not exist in the phonebook!'
-    elif ANSWER == '5':
+    elif ANSWER == '4':
         print '---------------------------''\n'
-        for key, value in sorted(CONTACTS.items()):
-            print key.upper(), (value[0].upper(), value[1])
+        print CONTACTS
 
-    elif ANSWER == '6':
+    elif ANSWER == '5':
         print 'Have a nice day!'
         break
+    dump()
