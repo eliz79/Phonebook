@@ -92,15 +92,15 @@ Scenario 2: Deleting an existing contact
 | And I get a statement saying my contact has been deleted.
 
 
-Scenario 3: Editing an existing contact
+Scenario 3: Displaying all contacts
 =======================================
 ::
 
-| Given that my customer has changed their number,
-| And I need to update the contact info in my phone book,
-| When I choose Option 3,
-| Then I will get a prompt asking me to enter the updated contact information,
-| And I will add the new contact info, along with any other additional info.
+| Given that I want to view all contacts,
+| And I need to see who is in my phone book,
+| When I choose Option 4,
+| Then I will get a prompt displaying all contact information,
+| And I will be able to view all contact info, with any other additional info.
 
 
 
@@ -111,6 +111,6 @@ Scenario 4: Searching for an existing contact
 
 | Given that I have to contact my existing customer,
 | And I need to enter new contact info in my phone book,
-| When I choose Option 4,
+| When I choose Option 3,
 | Then I will get a prompt asking me to enter the contact first name,
 | And my phone book will retrieve my contact.
